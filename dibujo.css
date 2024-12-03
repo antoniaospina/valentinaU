@@ -1,0 +1,86 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Azul pastel claro */
+    color: #000000; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    background-color: #b3e0ff; /* Azul pastel intermedio */
+    padding: 20px;
+    border-bottom: 2px solid #80c1ff;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #004d99; /* Azul oscuro */
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Caja de contenido */
+.box {
+    background-color: #cceeff; /* Azul pastel */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.box h2 {
+    color: #004d99; /* Azul pastel más oscuro */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.box ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.box ul li {
+    list-style-type: disc;
+    margin-bottom: 8px;
+}
+
+/* Estilo de imágenes */
+.image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Botón del pie de página */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer button {
+    background-color: #80c1ff; /* Azul pastel intermedio */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer button:hover {
+    background-color: #004d99; /* Azul oscuro */
+}

@@ -1,0 +1,79 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Toda la altura de la ventana */
+}
+
+.image-container img {
+    max-width: 100%; /* Asegura que la imagen no sobresalga */
+    height: auto;
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+}
+
+h3 {
+    color: #4caf50; /* Color verde */
+    font-size: 24px; /* Tamaño del texto */
+    margin-bottom: 10px; /* Espacio debajo del subtítulo */
+    text-align: center; /* Centrar el subtítulo */
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos para la sección del taller */
+.taller {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos principales */
+h1 {
+    text-align: center;
+    color: #4caf50;
+}
+
+/* Títulos secundarios */
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Listas numeradas */
+ol {
+    padding-left: 20px;
+}
+
+/* Estilo de los pasos */
+h3 {
+    color: #4caf50;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Listas dentro de cada paso */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Resaltar elementos */
+ul li:last-child {
+    margin-bottom: 0;
+}
